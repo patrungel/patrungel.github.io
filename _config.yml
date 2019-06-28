@@ -1,16 +1,12 @@
+plugins:
+- jekyll-remote-theme
+
 remote_theme: mmistakes/so-simple-theme
 
 locale: en-GB
 title: ""
 description: ""
 url: "https://patrungel.github.io"
-
-- scope:
-    path: "_posts"
-    type: posts
-  values:
-    layout: post
-    share: true
 
 author:
   name: patrungel
