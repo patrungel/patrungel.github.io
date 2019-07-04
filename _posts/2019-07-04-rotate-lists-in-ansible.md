@@ -131,7 +131,7 @@ config for master02: --endpoints=etcd02,etcd03,etcd04,etcd05,etcd01
 config for master03: --endpoints=etcd03,etcd04,etcd05,etcd01,etcd02
 ```
 
-A complete and executable example can be found here: https://github.com/patrungel/supportingcode/tree/master/ansible-rotate-list
+A complete and executable example can be found here: [https://github.com/patrungel/supportingcode/tree/master/ansible-rotate-list](https://github.com/patrungel/supportingcode/tree/master/ansible-rotate-list) .
 
 EPLS.
 
