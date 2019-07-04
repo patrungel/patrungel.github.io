@@ -9,4 +9,14 @@ description: ""
 url: "https://patrungel.github.io"
 
 author:
-  name: patrungel
+  name: Danil Mironov (patrungel)
+  links:
+  - title: GitHub
+    url: https://github.com/patrungel
+    icon: fab fa-github-square
+
+search_full_content: true
+
+permalink: /articles/:title/
+
+copyright: Except as otherwise noted, the content of this page is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), and code samples are licensed under the MIT License.
