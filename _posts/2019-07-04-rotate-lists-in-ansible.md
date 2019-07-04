@@ -16,6 +16,7 @@ This is quick showcase for rotating lists in Ansible.
 
 The technique described below was used to implement [an elegant work-around](https://github.com/kubernetes/kubernetes/issues/72102#issuecomment-478834647) to [kubernetess issue #72102](https://github.com/kubernetes/kubernetes/issues/72102), which comprised generating lists of etcd endpoints in alternating order for each k8s master.
 <!--more-->
+
 As we manage k8s configuration with [Ansible playbooks](https://docs.ansible.com/ansible/2.7/user_guide/playbooks.html), the solution was implemented in Ansible. This added a requirement of producing the same order for each instance across multiple executions.
 
 Rotating the list fits nicely for the case: master hosts form a group in Ansible inventory, so do etcd peers, both can be considered ordered collections as such. We want to rotate list of etcd peers and we define offset based on the position of a given master in the list of master hosts.
